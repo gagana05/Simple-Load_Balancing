@@ -48,6 +48,10 @@ Deploy a web server on a set of Virtual Machines (VMs) and load balance the traf
     o Health probe: Health-probe (HTTP:80) 
     o Session Persistence: None 
     
+## WORKING
+
+Use the IP of the loadbalancer on your web server. Either VM1 or VM2 would respond. On disabling any one of the VM's VM1/VM2 you could see the other VM i.e VM2/VM1 response.
+    
 ## NOTE
 The given configuration and naming is only for reference.
 
